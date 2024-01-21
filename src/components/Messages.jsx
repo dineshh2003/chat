@@ -1,6 +1,5 @@
 import React from 'react';
 import Message from './Message';
-import Input from './Input';
 
 const Messages = () => {
   return (
@@ -11,9 +10,8 @@ const Messages = () => {
         <Message/>
         <Message/>
         <Message/>
-        <Input/>
-
     </div>
+   
   )
 }
 
